@@ -1,4 +1,4 @@
-import { Gobject } from "../../backend/functions/src/model/Gobject";
+import { Gobject } from './Gobject';
 
 export type Device = Gobject<Property, Relation>;
 

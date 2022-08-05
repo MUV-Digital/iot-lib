@@ -3,7 +3,8 @@ import { Gobject } from './Gobject';
 export type TenantIdentity = Gobject<Property, Relation>;
 
 interface Property {
-  displayName: string;
+  displayName?: string;
+  balenaUuid: string;
 }
 
 interface Relation {

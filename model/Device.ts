@@ -2,7 +2,10 @@ import { Gobject } from './Gobject';
 
 export type Device = Gobject<Property, Relation>;
 
-interface Property {}
+interface Property {
+  balenaUuid: string;
+  balenaId: number;
+}
 
 interface Relation {
   registeredSensors: string[];

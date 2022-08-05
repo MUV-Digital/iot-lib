@@ -6,7 +6,8 @@ export type Sensor = Gobject<Property, Relation>;
 interface Property {
   type: PointType;
   unit: string;
-  value: object;
+  value: number | boolean;
+  timestamp: number;
 }
 
 interface Relation {}

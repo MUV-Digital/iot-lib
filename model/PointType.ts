@@ -1,4 +1,5 @@
 export enum PointType {
-  TEMPERATURE,
-  FLAG,
+  TEMPERATURE = 'TEMPERATURE',
+  FLAG = 'FLAG',
+  PERFORMANCE = 'PERFORMANCE',
 }

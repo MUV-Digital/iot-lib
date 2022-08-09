@@ -1,10 +1,5 @@
-import { Gobject } from './Gobject';
-
-export type SensorData = Gobject<Property, Relation>;
-
-interface Property {
+export interface SensorData {
+  id: string;
   value: number | boolean;
   timestamp: number;
 }
-
-interface Relation {}

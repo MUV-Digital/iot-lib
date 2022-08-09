@@ -1,5 +1,5 @@
 export interface SensorData {
-  id: string;
+  id?: string;
   value: number | boolean;
   timestamp: number;
 }

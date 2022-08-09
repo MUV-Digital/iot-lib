@@ -7,7 +7,7 @@ export type Sensor = Gobject<Property, Relation>;
 interface Property {
   type: SensorType;
   unit: string;
-  data: SensorData;
+  data?: SensorData;
 }
 
 interface Relation {}

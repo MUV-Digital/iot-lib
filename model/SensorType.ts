@@ -1,4 +1,4 @@
-export enum PointType {
+export enum SensorType {
   TEMPERATURE = 'TEMPERATURE',
   FLAG = 'FLAG',
   PERFORMANCE = 'PERFORMANCE',

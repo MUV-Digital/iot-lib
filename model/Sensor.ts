@@ -1,13 +1,13 @@
 import { Gobject } from './Gobject';
-import { PointType } from './PointType';
+import { SensorData } from './SensorData';
+import { SensorType } from './SensorType';
 
 export type Sensor = Gobject<Property, Relation>;
 
 interface Property {
-  type: PointType;
+  type: SensorType;
   unit: string;
-  value: number | boolean;
-  timestamp: number;
+  data: SensorData;
 }
 
 interface Relation {}

@@ -1,4 +1,5 @@
 import { SensorConfig } from './SensorConfig';
+import { StateData } from './StateData';
 
 export type IotConfig = {
   meta: {
@@ -6,4 +7,5 @@ export type IotConfig = {
     deviceId: string;
   };
   sensors: Array<SensorConfig>;
+  states: Array<StateData>;
 };

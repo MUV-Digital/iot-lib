@@ -8,6 +8,7 @@ interface Property {
   type: SensorType;
   unit: string;
   data?: SensorData;
+  enabled: boolean;
 }
 
 interface Relation {}

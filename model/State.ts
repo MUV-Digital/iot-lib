@@ -1,7 +1,14 @@
-import { Gobject } from './Gobject';
+export interface State {
+  id: string;
+  properties: {
+    action: Action;
+  };
+  relations: {
+    deviceId: string;
+  };
+}
 
-export type State = Gobject<Property, Relation>;
-
-interface Property {}
-
-interface Relation {}
+export interface Action {
+  to: Array<string>;
+  type: string;
+}

@@ -1,7 +1,7 @@
 export interface State {
   id: string;
   properties: {
-    actions: Action;
+    actions: Action[];
   };
   relations: {
     deviceId: string;

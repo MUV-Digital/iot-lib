@@ -2,7 +2,7 @@ export interface Sensor {
   id: string;
   properties: {
     data: {
-      value: number | string;
+      value: number | boolean;
     };
     enabled: boolean;
     type: string;

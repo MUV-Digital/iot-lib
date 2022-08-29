@@ -1,3 +1,4 @@
+import { SensorType } from './SensorType';
 export interface Sensor {
   id: string;
   properties: {
@@ -5,7 +6,7 @@ export interface Sensor {
       value: number | boolean;
     };
     enabled: boolean;
-    type: string;
+    type: SensorType;
     unit: string;
   };
   relations: {

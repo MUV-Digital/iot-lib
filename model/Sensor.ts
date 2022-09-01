@@ -8,6 +8,7 @@ export interface Sensor {
     enabled: boolean;
     type: SensorType;
     unit: string;
+    displayName: string;
   };
   relations: {
     deviceId: string;
